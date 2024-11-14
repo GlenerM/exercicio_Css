@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo{
+    background-color: #a99cbd;
+    width: 100%;
+    padding: 10px 35px;
+    color: #f0f8ff;
+    
+}
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.titulo nav ul {
+    display: flex;
+    gap: 15px;
+    list-style-type:none;   
+    margin-right: 20px
+}
+header nav ul a{
+    text-decoration: none;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+/*fim do Header*/ 
+
+.section-esportes h2 {
+    color: rgb(2, 25, 46);
+    font-size: 30px;
+}
+
+.section-esportes{
+    background-color: rgb(209, 205, 240);
+}
+h2 {
+    padding: 20px;
+}
+
+.section-esportes .articles{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.section-esportes .articles article{
+    width: 30%;
+}
+
+.section-esportes .articles article img {
+    margin-top: 17px;
+    width: 100%;
+}
+.articles article header {
+    margin-top: 7px ;
+    margin-bottom: 10px;
+}
+
+.articles article p{
+    margin-bottom: 5px;
+    padding: 2px;
+    color: rgb(2, 25, 46);
+
+}
+.articles article a{
+padding: 7px;
+border-radius: 5px;
+background-color: rgb(10, 35, 145) ;
+font-size: 15px;
+color: aliceblue;
+text-decoration: none;
+display: inline-block;
+}
+
+.articles article a:hover{
+    background-color: rgb(40, 68, 190) ;   
+    text-decoration: underline;
+}
+
+/*fim da Seçao de Esportes*/ 
+
+section h2 {
+    color: rgb(133, 7, 192);
+    font-size: 30px;
+}
+section{
+    background-color: rgb(192, 189, 221);
+}
+h2 {
+    padding: 20px;
+}
+section .artigos-economia{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+
+    
+}
+section .artigos-economia article{
+    width: 30%;
+}
+
+section .artigos-economia article img{
+    margin-top: 17px;
+    width: 100%;
+}
+section .artigos-economia article header{
+    margin-top: 7px ;
+    margin-bottom: 10px;
+}
+
+section .artigos-economia article p{
+    margin-bottom: 5px;
+    padding: 2px;
+    color: rgb(2, 25, 46);
+}
+
+section .artigos-economia article a {
+    padding: 7px;
+border-radius: 5px;
+background-color: rgb(10, 35, 145) ;
+font-size: 15px;
+color: aliceblue;
+text-decoration: none;
+display: inline-block;
+}
+
+section .artigos-economia article a:hover{
+    background-color: rgb(40, 68, 190) ;   
+    text-decoration: underline;
+}
+
+/*fim da Seçao de Economia*/ 
+
+.section-Tecnologia{
+    background-color:  rgb(174, 240, 229);
+}
+
+.section-Tecnologia h2 {
+    color: rgb(6, 155, 130);
+    font-size: 30px;
+    
+}
+
+h2 {
+    padding: 20px;
+}
+.section-Tecnologia .artigos-Tecnologia{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+
+    
+}
+.section-Tecnologia .artigos-Tecnologia article{
+    width: 30%;
+}
+
+.section-Tecnologia .artigos-Tecnologia article img{
+    margin-top: 17px;
+    width: 100%;
+}
+
+.section-Tecnologia .artigos-Tecnologia article header{
+    margin-top: 7px ;
+    margin-bottom: 10px;
+}
+
+.section-Tecnologia .artigos-Tecnologia article p{
+    margin-bottom: 5px;
+    padding: 2px;
+    color: rgb(2, 25, 46);
+}
+
+.section-Tecnologia .artigos-Tecnologia article a{
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgb(21, 35, 100) ;
+    font-size: 15px;
+    color: aliceblue;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.section-Tecnologia .artigos-Tecnologia article a:hover{
+    background-color: rgb(40, 68, 190) ;   
+    text-decoration: underline;
+}
+
+/*fim da Seçao de Tecnologia*/ 
+
+.section-entreterimento{
+    background-color: rgb(214, 150, 209);
+}
+.section-entreterimento h2{
+    color: rgb(102, 3, 77);
+    font-size: 30px;
+}
+
+h2 {
+    padding: 20px;
+}
+.section-entreterimento .artigos-entreterimento{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+.section-entreterimento .artigos-entreterimento article{
+    width: 30%;
+}
+
+.section-entreterimento .artigos-entreterimento img{
+    margin-top: 17px;
+    width: 100%;
+}
+
+.section-entreterimento .artigos-entreterimento article header{
+    margin-top: 7px ;
+    margin-bottom: 10px;
+}
+
+.section-entreterimento .artigos-entreterimento article p {
+    margin-bottom: 5px;
+    padding: 2px;
+    color: rgb(2, 25, 46);
+}
+
+.section-entreterimento .artigos-entreterimento article a {
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgb(21, 35, 100) ;
+    font-size: 15px;
+    color: aliceblue;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.section-entreterimento .artigos-entreterimento article a:hover{
+    background-color: rgb(40, 68, 190) ;   
+    text-decoration: underline;
+}
